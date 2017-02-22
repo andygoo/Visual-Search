@@ -14,7 +14,7 @@ The CIFAR-10 dataset is a set of 60,000 32 x 32 black and white images. Out of t
 ### Running
 
 ```
-python visual_search.py <path to CIFAR-10 image>
+python visual-search.py <path to CIFAR-10 image>
 ```
 For example:
 ```
