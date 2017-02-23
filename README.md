@@ -1,6 +1,11 @@
 # Visual-Search
 
-Visual-Search finds images that are visually similar to a given image. It first trains a Siamese Neural Network as described in Hadsell et al. 2006 (see references) to learn an image embedding. Then, the k-nearest neighbors algorithm is used to find the closest images according to this embedding. The neural network is trained on training data from the CIFAR-10 dataset. 
+Visual-Search finds images that are visually similar to a given image. It first trains a Siamese Neural Network as described in Hadsell et al. 2006 (see references) to learn an image embedding. Then, the k-nearest neighbors algorithm is used to find the closest images according to this embedding. The neural network is trained on training data from the CIFAR-10 dataset.
+
+# Siamese Neural Network Architecture
+
+![alt text](https://github.com/dhruvilbadani/visual-search/model.png "Siamese Neural Network")
+
 ### Requirements
 
 Visual-Search requires NumPy, SciPy, Keras, Theano and the PIL Imaging library to run. You will need all of the files on this repo. Some of the data is too big to be out on GitHub. You can download ```cifar-train-data.npy``` and ```cifar-test-data.npy``` [here](https://drive.google.com/drive/folders/0B-25mAWK5f0CTll4RDFlVXpfWjQ?usp=sharing). They should be kept in the same directory as this repo.
