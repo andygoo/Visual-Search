@@ -4,7 +4,7 @@ Visual-Search finds images that are visually similar to a given image. It first 
 
 # Siamese Neural Network Architecture
 
-![alt text](https://github.com/dhruvilbadani/visual-search/model.png "Siamese Neural Network")
+![alt text](https://github.com/dhruvilbadani/Visual-Search/blob/master/model.png "Siamese Neural Network")
 
 ### Requirements
 
